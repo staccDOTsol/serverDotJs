@@ -9,7 +9,7 @@
     "namespace-cli": "./src/cli/namespace.ts"
   },
   "scripts": {
-    "build": "echo ha",
+    "build": "echo ha; mkdir public; echo blarg",
     "start": "yarn ts-node server.ts",
     "watch": "tsc -w -p ./src",
     "format": "prettier --loglevel warn --write \"**/*.{ts,js,json,yaml}\"",
